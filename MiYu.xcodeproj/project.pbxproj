@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F21660B1B5F713600025612 /* ClickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F21660A1B5F713600025612 /* ClickView.m */; };
+		0F21660D1B5F766800025612 /* dwl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F21660C1B5F766800025612 /* dwl.jpg */; };
+		0F21660F1B5F76E000025612 /* dwl1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F21660E1B5F76E000025612 /* dwl1.jpg */; };
+		0F2166111B5F772E00025612 /* dwl2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F2166101B5F772E00025612 /* dwl2.jpg */; };
+		0F2166131B5F779100025612 /* dwl3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F2166121B5F779100025612 /* dwl3.jpg */; };
+		0F2166151B5F77C400025612 /* dwl4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F2166141B5F77C400025612 /* dwl4.jpg */; };
+		0F2166181B5F840F00025612 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2166171B5F840F00025612 /* ListViewController.m */; };
+		0F29BFD81B5E53F800685AB6 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F29BFD61B5E53F800685AB6 /* TableViewCell.m */; };
+		0F29BFD91B5E53F800685AB6 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F29BFD71B5E53F800685AB6 /* TableViewCell.xib */; };
+		0F29BFDC1B5E549C00685AB6 /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F29BFDB1B5E549C00685AB6 /* FirstView.m */; };
+		0F29BFDE1B5E571C00685AB6 /* zw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F29BFDD1B5E571C00685AB6 /* zw.jpg */; };
+		0F30C8991B5E33A000EAE020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F30C8981B5E33A000EAE020 /* main.m */; };
+		0F30C89C1B5E33A000EAE020 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F30C89B1B5E33A000EAE020 /* AppDelegate.m */; };
+		0F30C89F1B5E33A000EAE020 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F30C89E1B5E33A000EAE020 /* ViewController.m */; };
+		0F30C8A21B5E33A000EAE020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F30C8A01B5E33A000EAE020 /* Main.storyboard */; };
+		0F30C8A41B5E33A000EAE020 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F30C8A31B5E33A000EAE020 /* Images.xcassets */; };
+		0F30C8A71B5E33A000EAE020 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F30C8A51B5E33A000EAE020 /* LaunchScreen.xib */; };
+		0F30C8B31B5E33A000EAE020 /* MiYuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F30C8B21B5E33A000EAE020 /* MiYuTests.m */; };
+		0F30C8BE1B5E33C800EAE020 /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F30C8BD1B5E33C800EAE020 /* BottomView.m */; };
+		0F30C8C61B5E36C900EAE020 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F30C8C51B5E36C900EAE020 /* home.png */; };
+		0F30C8C91B5E36E300EAE020 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F30C8C81B5E36E300EAE020 /* Tool.m */; };
+		0F30C8CB1B5E397100EAE020 /* home2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F30C8CA1B5E397100EAE020 /* home2.png */; };
+		0F30C8CD1B5E39B900EAE020 /* setup.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F30C8CC1B5E39B900EAE020 /* setup.png */; };
+		0F30C8CF1B5E3AD600EAE020 /* collection.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F30C8CE1B5E3AD600EAE020 /* collection.png */; };
+		0F30C8D21B5E3B6500EAE020 /* Public.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F30C8D11B5E3B6500EAE020 /* Public.m */; };
+		0F30C8D41B5E3EE900EAE020 /* setup2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F30C8D31B5E3EE900EAE020 /* setup2.png */; };
+		0F30C8D61B5E3FD600EAE020 /* col2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F30C8D51B5E3FD500EAE020 /* col2.png */; };
+		0F30C8D81B5E469000EAE020 /* col2_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F30C8D71B5E469000EAE020 /* col2_2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F30C8AD1B5E33A000EAE020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F30C88B1B5E33A000EAE020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F30C8921B5E33A000EAE020;
+			remoteInfo = MiYu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F2166091B5F713600025612 /* ClickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickView.h; sourceTree = "<group>"; };
+		0F21660A1B5F713600025612 /* ClickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickView.m; sourceTree = "<group>"; };
+		0F21660C1B5F766800025612 /* dwl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dwl.jpg; sourceTree = "<group>"; };
+		0F21660E1B5F76E000025612 /* dwl1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dwl1.jpg; sourceTree = "<group>"; };
+		0F2166101B5F772E00025612 /* dwl2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dwl2.jpg; sourceTree = "<group>"; };
+		0F2166121B5F779100025612 /* dwl3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dwl3.jpg; sourceTree = "<group>"; };
+		0F2166141B5F77C400025612 /* dwl4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dwl4.jpg; sourceTree = "<group>"; };
+		0F2166161B5F840F00025612 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		0F2166171B5F840F00025612 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		0F29BFD51B5E53F800685AB6 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		0F29BFD61B5E53F800685AB6 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		0F29BFD71B5E53F800685AB6 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		0F29BFDA1B5E549C00685AB6 /* FirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		0F29BFDB1B5E549C00685AB6 /* FirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
+		0F29BFDD1B5E571C00685AB6 /* zw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zw.jpg; sourceTree = "<group>"; };
+		0F30C8931B5E33A000EAE020 /* MiYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F30C8971B5E33A000EAE020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F30C8981B5E33A000EAE020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F30C89A1B5E33A000EAE020 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F30C89B1B5E33A000EAE020 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F30C89D1B5E33A000EAE020 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F30C89E1B5E33A000EAE020 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F30C8A11B5E33A000EAE020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F30C8A31B5E33A000EAE020 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0F30C8A61B5E33A000EAE020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0F30C8AC1B5E33A000EAE020 /* MiYuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiYuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F30C8B11B5E33A000EAE020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F30C8B21B5E33A000EAE020 /* MiYuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiYuTests.m; sourceTree = "<group>"; };
+		0F30C8BC1B5E33C800EAE020 /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		0F30C8BD1B5E33C800EAE020 /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		0F30C8C51B5E36C900EAE020 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		0F30C8C71B5E36E300EAE020 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		0F30C8C81B5E36E300EAE020 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		0F30C8CA1B5E397100EAE020 /* home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home2.png; sourceTree = "<group>"; };
+		0F30C8CC1B5E39B900EAE020 /* setup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setup.png; sourceTree = "<group>"; };
+		0F30C8CE1B5E3AD600EAE020 /* collection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collection.png; sourceTree = "<group>"; };
+		0F30C8D01B5E3B6500EAE020 /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
+		0F30C8D11B5E3B6500EAE020 /* Public.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Public.m; sourceTree = "<group>"; };
+		0F30C8D31B5E3EE900EAE020 /* setup2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setup2.png; sourceTree = "<group>"; };
+		0F30C8D51B5E3FD500EAE020 /* col2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = col2.png; sourceTree = "<group>"; };
+		0F30C8D71B5E469000EAE020 /* col2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = col2_2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F30C8901B5E33A000EAE020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F30C8A91B5E33A000EAE020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F30C88A1B5E33A000EAE020 = {
+			isa = PBXGroup;
+			children = (
+				0F30C8951B5E33A000EAE020 /* MiYu */,
+				0F30C8AF1B5E33A000EAE020 /* MiYuTests */,
+				0F30C8941B5E33A000EAE020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F30C8941B5E33A000EAE020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F30C8931B5E33A000EAE020 /* MiYu.app */,
+				0F30C8AC1B5E33A000EAE020 /* MiYuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F30C8951B5E33A000EAE020 /* MiYu */ = {
+			isa = PBXGroup;
+			children = (
+				0F30C8BF1B5E340800EAE020 /* Image */,
+				0F30C8C11B5E340800EAE020 /* Main */,
+				0F30C8C21B5E340800EAE020 /* SetUp */,
+				0F30C8C31B5E340800EAE020 /* Tool */,
+				0F30C89A1B5E33A000EAE020 /* AppDelegate.h */,
+				0F30C89B1B5E33A000EAE020 /* AppDelegate.m */,
+				0F30C89D1B5E33A000EAE020 /* ViewController.h */,
+				0F30C89E1B5E33A000EAE020 /* ViewController.m */,
+				0F30C8A01B5E33A000EAE020 /* Main.storyboard */,
+				0F30C8A31B5E33A000EAE020 /* Images.xcassets */,
+				0F30C8A51B5E33A000EAE020 /* LaunchScreen.xib */,
+				0F30C8961B5E33A000EAE020 /* Supporting Files */,
+				0F30C8BC1B5E33C800EAE020 /* BottomView.h */,
+				0F30C8BD1B5E33C800EAE020 /* BottomView.m */,
+			);
+			path = MiYu;
+			sourceTree = "<group>";
+		};
+		0F30C8961B5E33A000EAE020 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F30C8971B5E33A000EAE020 /* Info.plist */,
+				0F30C8981B5E33A000EAE020 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F30C8AF1B5E33A000EAE020 /* MiYuTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F30C8B21B5E33A000EAE020 /* MiYuTests.m */,
+				0F30C8B01B5E33A000EAE020 /* Supporting Files */,
+			);
+			path = MiYuTests;
+			sourceTree = "<group>";
+		};
+		0F30C8B01B5E33A000EAE020 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F30C8B11B5E33A000EAE020 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F30C8BF1B5E340800EAE020 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0F2166121B5F779100025612 /* dwl3.jpg */,
+				0F21660E1B5F76E000025612 /* dwl1.jpg */,
+				0F2166141B5F77C400025612 /* dwl4.jpg */,
+				0F2166101B5F772E00025612 /* dwl2.jpg */,
+				0F29BFDD1B5E571C00685AB6 /* zw.jpg */,
+				0F21660C1B5F766800025612 /* dwl.jpg */,
+				0F30C8D71B5E469000EAE020 /* col2_2.png */,
+				0F30C8D31B5E3EE900EAE020 /* setup2.png */,
+				0F30C8D51B5E3FD500EAE020 /* col2.png */,
+				0F30C8CE1B5E3AD600EAE020 /* collection.png */,
+				0F30C8CC1B5E39B900EAE020 /* setup.png */,
+				0F30C8CA1B5E397100EAE020 /* home2.png */,
+				0F30C8C51B5E36C900EAE020 /* home.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		0F30C8C11B5E340800EAE020 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0F29BFD51B5E53F800685AB6 /* TableViewCell.h */,
+				0F29BFD61B5E53F800685AB6 /* TableViewCell.m */,
+				0F29BFD71B5E53F800685AB6 /* TableViewCell.xib */,
+				0F29BFDA1B5E549C00685AB6 /* FirstView.h */,
+				0F29BFDB1B5E549C00685AB6 /* FirstView.m */,
+				0F2166091B5F713600025612 /* ClickView.h */,
+				0F21660A1B5F713600025612 /* ClickView.m */,
+				0F2166161B5F840F00025612 /* ListViewController.h */,
+				0F2166171B5F840F00025612 /* ListViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0F30C8C21B5E340800EAE020 /* SetUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SetUp;
+			sourceTree = "<group>";
+		};
+		0F30C8C31B5E340800EAE020 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0F30C8D01B5E3B6500EAE020 /* Public.h */,
+				0F30C8D11B5E3B6500EAE020 /* Public.m */,
+				0F30C8C71B5E36E300EAE020 /* Tool.h */,
+				0F30C8C81B5E36E300EAE020 /* Tool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F30C8921B5E33A000EAE020 /* MiYu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F30C8B61B5E33A000EAE020 /* Build configuration list for PBXNativeTarget "MiYu" */;
+			buildPhases = (
+				0F30C88F1B5E33A000EAE020 /* Sources */,
+				0F30C8901B5E33A000EAE020 /* Frameworks */,
+				0F30C8911B5E33A000EAE020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiYu;
+			productName = MiYu;
+			productReference = 0F30C8931B5E33A000EAE020 /* MiYu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F30C8AB1B5E33A000EAE020 /* MiYuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F30C8B91B5E33A000EAE020 /* Build configuration list for PBXNativeTarget "MiYuTests" */;
+			buildPhases = (
+				0F30C8A81B5E33A000EAE020 /* Sources */,
+				0F30C8A91B5E33A000EAE020 /* Frameworks */,
+				0F30C8AA1B5E33A000EAE020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F30C8AE1B5E33A000EAE020 /* PBXTargetDependency */,
+			);
+			name = MiYuTests;
+			productName = MiYuTests;
+			productReference = 0F30C8AC1B5E33A000EAE020 /* MiYuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F30C88B1B5E33A000EAE020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = qzp;
+				TargetAttributes = {
+					0F30C8921B5E33A000EAE020 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0F30C8AB1B5E33A000EAE020 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0F30C8921B5E33A000EAE020;
+					};
+				};
+			};
+			buildConfigurationList = 0F30C88E1B5E33A000EAE020 /* Build configuration list for PBXProject "MiYu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F30C88A1B5E33A000EAE020;
+			productRefGroup = 0F30C8941B5E33A000EAE020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F30C8921B5E33A000EAE020 /* MiYu */,
+				0F30C8AB1B5E33A000EAE020 /* MiYuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F30C8911B5E33A000EAE020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2166151B5F77C400025612 /* dwl4.jpg in Resources */,
+				0F30C8D81B5E469000EAE020 /* col2_2.png in Resources */,
+				0F2166131B5F779100025612 /* dwl3.jpg in Resources */,
+				0F2166111B5F772E00025612 /* dwl2.jpg in Resources */,
+				0F29BFD91B5E53F800685AB6 /* TableViewCell.xib in Resources */,
+				0F30C8D41B5E3EE900EAE020 /* setup2.png in Resources */,
+				0F30C8C61B5E36C900EAE020 /* home.png in Resources */,
+				0F30C8D61B5E3FD600EAE020 /* col2.png in Resources */,
+				0F30C8CF1B5E3AD600EAE020 /* collection.png in Resources */,
+				0F29BFDE1B5E571C00685AB6 /* zw.jpg in Resources */,
+				0F30C8CD1B5E39B900EAE020 /* setup.png in Resources */,
+				0F21660D1B5F766800025612 /* dwl.jpg in Resources */,
+				0F21660F1B5F76E000025612 /* dwl1.jpg in Resources */,
+				0F30C8A21B5E33A000EAE020 /* Main.storyboard in Resources */,
+				0F30C8A71B5E33A000EAE020 /* LaunchScreen.xib in Resources */,
+				0F30C8A41B5E33A000EAE020 /* Images.xcassets in Resources */,
+				0F30C8CB1B5E397100EAE020 /* home2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F30C8AA1B5E33A000EAE020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F30C88F1B5E33A000EAE020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2166181B5F840F00025612 /* ListViewController.m in Sources */,
+				0F29BFD81B5E53F800685AB6 /* TableViewCell.m in Sources */,
+				0F29BFDC1B5E549C00685AB6 /* FirstView.m in Sources */,
+				0F21660B1B5F713600025612 /* ClickView.m in Sources */,
+				0F30C8C91B5E36E300EAE020 /* Tool.m in Sources */,
+				0F30C89F1B5E33A000EAE020 /* ViewController.m in Sources */,
+				0F30C8D21B5E3B6500EAE020 /* Public.m in Sources */,
+				0F30C89C1B5E33A000EAE020 /* AppDelegate.m in Sources */,
+				0F30C8991B5E33A000EAE020 /* main.m in Sources */,
+				0F30C8BE1B5E33C800EAE020 /* BottomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F30C8A81B5E33A000EAE020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F30C8B31B5E33A000EAE020 /* MiYuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F30C8AE1B5E33A000EAE020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F30C8921B5E33A000EAE020 /* MiYu */;
+			targetProxy = 0F30C8AD1B5E33A000EAE020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F30C8A01B5E33A000EAE020 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F30C8A11B5E33A000EAE020 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F30C8A51B5E33A000EAE020 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F30C8A61B5E33A000EAE020 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F30C8B41B5E33A000EAE020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F30C8B51B5E33A000EAE020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F30C8B71B5E33A000EAE020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiYu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F30C8B81B5E33A000EAE020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiYu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F30C8BA1B5E33A000EAE020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiYuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiYu.app/MiYu";
+			};
+			name = Debug;
+		};
+		0F30C8BB1B5E33A000EAE020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiYuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiYu.app/MiYu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F30C88E1B5E33A000EAE020 /* Build configuration list for PBXProject "MiYu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F30C8B41B5E33A000EAE020 /* Debug */,
+				0F30C8B51B5E33A000EAE020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F30C8B61B5E33A000EAE020 /* Build configuration list for PBXNativeTarget "MiYu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F30C8B71B5E33A000EAE020 /* Debug */,
+				0F30C8B81B5E33A000EAE020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F30C8B91B5E33A000EAE020 /* Build configuration list for PBXNativeTarget "MiYuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F30C8BA1B5E33A000EAE020 /* Debug */,
+				0F30C8BB1B5E33A000EAE020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F30C88B1B5E33A000EAE020 /* Project object */;
+}
